@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Game Central </title>
+	<link rel="stylesheet" href="GameCentral.css">
+</head>
+
+<body>
+<h1> Game Central Login </h1>
+<nav>
+	<table id="mainMenu">
+		<TR>
+			<TD> <a href="/GameCentral/GameCentral.html"> Home </a> </TD>
+			<TD> <a href="/GameCentral/Poker.html"> Poker </a> </TD>
+			<TD> <a href="/GameCentral/Blackjack.html"> BlackJack </a> </TD>
+			<TD> <a href ="/GameCentral/War.html"> War </a> </TD>
+		</TR>
+	</table>
+</nav>
+
+<p id="main"> Please click on the above link to play the desired game. </p>
+
+<form class="user" action="ConnectUser" method="POST">
+	UserName: <input type="text" name="userName" id="userName"> <br>
+	Password: <input type="password" name="passWord"> <br>
+	Email: <input type="text" name="email"> <br>
+	<input type="submit">
+</form>
+	
+</body>
+</html>

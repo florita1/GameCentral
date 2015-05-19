@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Poker </title>
+	<link rel="stylesheet" href="GameCentral.css">
+</head>
+
+<body>
+<h2> Poker Introduction </h2>
+<a id="login" href="/GameCentral/Login.html"> Login </a>
+<nav>
+	<table id="mainMenu">
+		<TR>
+			<TD> <a href="/GameCentral/GameCentral.html"> Home </a> </TD>
+			<TD> <a href="/GameCentral/Poker.html"> Poker </a> </TD>
+			<TD> <a href="/GameCentral/Blackjack.html"> BlackJack </a> </TD>
+			<TD> <a href ="/GameCentral/War.html"> War </a> </TD>
+		</TR>
+	</table>
+</nav>
+
+<p>Poker is the name given to a variety of card games in which players hands are ranked by the cards available to them, <br>
+ whether held individually or shared by multiple players. <br>
+ Typically, the winner of each hand of poker is the player that holds the best ranking hand when all cards are shown.
+</p>
+<form class="Poker" action="ConnectPoker" method="POST">
+	Player Name: <input name="playerName" type="text"> 
+	<input type="submit"> <br>
+	<br>
+	How many players should we deal cards for? <br>
+	
+	2 Players: <input type="radio" name="players" value="2" checked> 
+	3 Players: <input type="radio" name="players" value="3"> 
+	4 Players: <input type="radio" name="players" value="4"> 
+	5 Players: <input type="radio" name="players" value="5"> <br>
+	<br>
+	
+	Ante Amount: $ <input type="text" name="anteAmount" size ="5"> 
+	<input type="button" id="set" value="Set"><br>
+	
+	<!-- <table id="displayCards">
+		<TR>
+			<TD> Your cards: </TD>
+			<TD class="cards" id="pcard1"> 2S </TD>
+			<TD class="cards" id="pcard2"> 8H </TD>
+			<TD class="cards" id="pcard3"> JS </TD>
+			<TD class="cards" id="pcard4"> 3H </TD>
+			<TD class="cards" id="pcard5"> QC </TD>
+			<TD name="wallet" id="pW" > Wallet: $ </TD>
+		</TR>
+		
+		<TR>
+			<TD> Player 2 cards: </TD>
+			<TD class="cards" id="2card1"> TS </TD>
+			<TD class="cards" id="2card2"> KH </TD>
+			<TD class="cards" id="2card3"> AS </TD>
+			<TD class="cards" id="2card4"> 7H </TD>
+			<TD class="cards" id="2card5"> KC </TD>
+			<TD name="wallet" id="p2W" > Wallet: $ </TD>
+		</TR>
+		
+		<TR>
+			<TD> Player 3 cards: </TD>
+			<TD class="cards" id="3card1"> 6S </TD>
+			<TD class="cards" id="3card2"> 4H </TD>
+			<TD class="cards" id="3card3"> 7S </TD>
+			<TD class="cards" id="3card4"> 8D </TD>
+			<TD class="cards" id="3card5"> 5C </TD>
+			<TD name="wallet" id="p3W" > Wallet: $ </TD>
+		</TR>
+		
+		<TR>
+			<TD> Player 4 cards: </TD>
+			<TD class="cards" id="4card1"> 4C </TD>
+			<TD class="cards" id="4card2"> 6C </TD>
+			<TD class="cards" id="4card3"> 2C </TD>
+			<TD class="cards" id="4card4"> 9C </TD>
+			<TD class="cards" id="4card5"> AC </TD>
+			<TD name="wallet" id="p4W" > Wallet: $ </TD>
+		</TR>
+		
+		<TR>
+			<TD> Player 5 cards: </TD>
+			<TD class="cards" id="5card1"> AS </TD>
+			<TD class="cards" id="5card2"> AH </TD>
+			<TD class="cards" id="5card3"> 9S </TD>
+			<TD class="cards" id="5card4"> 5H </TD>
+			<TD class="cards" id="5card5"> 8C </TD>
+			<TD name="wallet" id="p5W" > Wallet: $ </TD>
+		</TR>
+	</table>
+	<input type="submit" value="Deal Again">
+	<input type="button" id="exit" value="Quit Game"> <br> -->
+</form>
+</body>
+</html>

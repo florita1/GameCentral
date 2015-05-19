@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> BlackJack </title>
+	<link rel="stylesheet" href="GameCentral.css">
+</head>
+
+<body>
+<h2> BlackJack Introduction </h2>
+<a id="login" href="/GameCentral/Login.html"> Login </a>
+<nav>
+	<table id="mainMenu">
+		<TR>
+			<TD> <a href="/GameCentral/GameCentral.html"> Home </a> </TD>
+			<TD> <a href="/GameCentral/Poker.html"> Poker </a> </TD>
+			<TD> <a href="/GameCentral/Blackjack.html"> BlackJack </a> </TD>
+			<TD> <a href ="/GameCentral/War.html"> War </a> </TD>
+		</TR>
+	</table>
+</nav>
+
+<p>Blackjack is a popular American casino game, now found throughout the world. <br>
+It is a banking game in which the aim of the player is to achieve a hand whose points total nearer to 21 than the banker's hand, but without exceeding 21. <br>
+In Nevada casinos the game is generally known 21 rather than Blackjack, and the holding of an ace with a 10-point card is called a "natural".<br>
+Confusingly, the name Black Jack is used in Britain for an entirely different card game which is essentially the same as Crazy Eights.<br>
+The following outline explains the basic rules of standard blackjack (21), along with the house rules most commonly featured in casinos.<br> 
+Players should bear in mind, though, that blackjack rules vary from casino to casino, and check for local variations before playing.<br>
+</p>
+<form class="Blackjack" action="ConnectBlackjack" method="POST">
+	Player Name: <input name="playerName" type="text"> 
+	<input type="submit"> <br>
+	<!-- <table id="displayCards">
+		<TR>
+			<TD> Your cards: </TD>
+			<TD class="cards" id="pcard1"> 2S </TD>
+			<TD class="cards" id="pcard2"> 8H </TD>
+			<TD> Your Score: 0</TD>
+		</TR>
+		
+		<TR>
+			<TD> Dealer cards: </TD>
+			<TD class="cards" id="dcard1"> AD </TD>
+			<TD class="cards" id="dcard2"> 3S </TD>
+			<TD> Dealer Score: 0</TD>
+		</TR>
+	</table>
+	<input type="button" value="Stay">
+	<input type="button" value="Hit"> <br>
+	<input type="button" value="Play Again"> -->
+	<input type="button" id="exit" value="Quit Game"> <br>
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE register-info [
+<!ELEMENT user (userName, password, email)>
+<!ELEMENT userName (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<register-info>
+	<user>
+		<userName></userName>
+		<password></password>
+		<email></email>
+	</user>
+</register-info>

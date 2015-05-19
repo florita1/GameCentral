@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> War </title>
+	<link rel="stylesheet" href="GameCentral.css">
+</head>
+<body>
+<h2> War Introduction </h2>
+<a id="login" href="/GameCentral/Login.html"> Login </a>
+<nav>
+	<table id="mainMenu">
+		<TR>
+			<TD> <a href="/GameCentral/GameCentral.html"> Home </a> </TD>
+			<TD> <a href="/GameCentral/Poker.html"> Poker </a> </TD>
+			<TD> <a href="/GameCentral/Blackjack.html"> BlackJack </a> </TD>
+			<TD> <a href ="/GameCentral/War.html"> War </a> </TD>
+		</TR>
+	</table>
+</nav>
+<p>This is a children's game played in many parts of the world. <br>
+No strategy is involved - simply the ability to recognize which of two cards is higher in rank, <br>
+and to follow the procedure of the game. </p>
+
+<form class="War" action="ConnectWar" method="POST">
+	Player Name: <input name="playerName" type="text"> 
+	<input type="submit"> <br>
+	<br>
+	<!-- <table id="displayCards">
+		<TR>
+			<TD> Your cards: </TD>
+			<TD class="cards" id="pcard1"> 2S </TD>
+			<TD> Your deck: 26</TD>
+		</TR>
+		
+		<TR>
+			<TD> Player 2 cards: </TD>
+			<TD class="cards" id="dcard1"> AD </TD>
+			<TD> Player 2 deck: 26</TD>
+		</TR>
+	</table>
+	<input type="button" value="Deal Card"> -->
+	<input type="button" id="exit" value="Quit Game"> <br>
+</form>
+</body>
+</html>
